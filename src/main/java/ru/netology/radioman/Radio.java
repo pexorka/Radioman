@@ -50,11 +50,12 @@ public class Radio {
         if (currentStation < 9) {
             int newCurrentStation = currentStation + 1;
             setCurrentStation(newCurrentStation);
+            return;
         }
         if (currentStation >= 9) {
             int newCurrentStation = 0;
             setCurrentStation(newCurrentStation);
-                    }
+        }
     }
 
     public void prevStation() {
