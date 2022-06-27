@@ -17,7 +17,7 @@ public class RadioTest {
     @Test
     public void shouldSetCurrentStationOver9() {
         Radio rad = new Radio();
-        rad.setCurrentStation(20);
+        rad.setCurrentStation(10);
         int expected = 0;
         int actual = rad.getCurrentStation();
         assertEquals(expected, actual);
